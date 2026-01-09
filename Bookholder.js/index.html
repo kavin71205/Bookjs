@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="navbar">
+    <h1> Booksholder</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h4>- By Robert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium sint obcaecati culpa eum? Inventore culpa facere, laborum autem harum suscipit quo quam saepe dignissimos, ipsam eius magnam amet minima.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+        <div class="book-container">
+        <h2>The Psychology Of Money</h2>
+        <h4>- By Morgan Housel</h4>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos doloremque vitae rem fugiat itaque deleniti, accusantium fuga in iusto cumque, sit nostrum impedit et officiis ducimus dolorem repellat commodi aspernatur?</p>
+        <button onclick="deletebook(event)">Delete</button>
+        </div>
+        </div>
+        <div class="popup-overlay"> </div>
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="Book-Title-input"> 
+                <input type="text" placeholder="Book Author" id="Book-Author-input">
+                <textarea placeholder="Short Description" id="Book-description-input"> </textarea>
+                <button id="add-book">Add</button>
+                <button id="Cancel-popup">Cancel</button>
+            </form>
+        </div>
+        
+    </div>
+    <button class="add-button" id="add-popup-button"> + </button>
+
+    <script src="script.js"> </script>
+    
+</body>
+</html> 
