@@ -1,2 +1,2 @@
-# Bookjs
-It is project file to add book short notes.
+# Book-Holder
+Here you can add your books details 
